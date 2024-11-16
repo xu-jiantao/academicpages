@@ -1,27 +1,29 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-
+#下面的内容是导航栏的设置，可以根据自己的需要进行修改，url 的链接是相对于根目录的，比如 /about/ 就是根目录下的 about 文件夹，如果是外部链接，直接写链接地址就可以了。
 main:
   - title: "Publications"
-    url: /publications/
+#    url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+#    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
+#    url: /teaching/
     
   - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+#    url: /portfolio/
+
+  - title: "About"
+    url: /about/
+
+  - title: "Education"
+    url: /education/
+
+  - title: "Experience"
+    url: /experience/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Contact"
+    url: /contact/
+
